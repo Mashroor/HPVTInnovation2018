@@ -19,15 +19,15 @@ else:
     print "Connected"
 
 while True:
-    if dist < 609.6     #20ft
+    if dist < 609.6:     #20ft
         greenLED.on()
-    if dist < 518.16    #17ft
+    if dist < 518.16:    #17ft
         yellowLED.on()
-    if dist < 365.706   #12ft
+    if dist < 365.706:   #12ft
         orangeLED.on()
-    if dist < 213.36    #7ft
+    if dist < 213.36:    #7ft
         redLED.on()
-    if dist < 152.4     #5ft
+    if dist < 152.4:     #5ft
         redLED.blink()
     else:
         redLED.off()
