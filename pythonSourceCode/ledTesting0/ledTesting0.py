@@ -32,5 +32,5 @@ while True:
     else:
         redLED.off()
         orangeLED.off()
-        yellow.off()
+        yellowLED.off()
         greenLED.off()
