@@ -14,7 +14,7 @@ greenLED= LED(19)
 
 #connection check
 if connected < -1:
-        print "Not Conected"
+        print "Not Connected"
 else:
     print "Connected"
 
