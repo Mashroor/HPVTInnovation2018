@@ -28,12 +28,22 @@ void loop() {
 
   if (dist < 610) {
     digitalWrite(gLed, HIGH);
+    digitalWrite(yLed, LOW);
+    digitalWrite(oLed, LOW);
+    digitalWrite(rLed, LOW);
+    digitalWrite(bLed, LOW);
     if (dist < 519) {
       digitalWrite(yLed, HIGH);
+      digitalWrite(oLed, LOW);
+      digitalWrite(rLed, LOW);
+      digitalWrite(bLed, LOW);
       if (dist < 366) {
         digitalWrite(oLed, HIGH);
+        digitalWrite(rLed, LOW);
+        digitalWrite(bLed, LOW);
         if (dist < 214) {
           digitalWrite(rLed, HIGH);
+          digitalWrite(bLed, LOW);
           if (dist < 153) {
             digitalWrite(bLed, HIGH);
           }
