@@ -26,25 +26,25 @@ void setup() {
 void loop() {
   int dist = lidar.distance(); //take in serial data on each pass
 
-  if (dist < 610) {
+  if (dist < 800) {
     digitalWrite(gLed, HIGH);
     digitalWrite(yLed, LOW);
     digitalWrite(oLed, LOW);
     digitalWrite(rLed, LOW);
     digitalWrite(bLed, LOW);
-    if (dist < 519) {
+    if (dist < 600) {
       digitalWrite(yLed, HIGH);
       digitalWrite(oLed, LOW);
       digitalWrite(rLed, LOW);
       digitalWrite(bLed, LOW);
-      if (dist < 366) {
+      if (dist < 400) {
         digitalWrite(oLed, HIGH);
         digitalWrite(rLed, LOW);
         digitalWrite(bLed, LOW);
-        if (dist < 214) {
+        if (dist < 200) {
           digitalWrite(rLed, HIGH);
           digitalWrite(bLed, LOW);
-          if (dist < 153) {
+          if (dist < 100) {
             digitalWrite(bLed, HIGH);
           }
         }
