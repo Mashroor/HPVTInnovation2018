@@ -16,6 +16,10 @@ Calculation and control will be done by an Arduino Micro
 
 ## Milestones
 - 01/02/2019, First iteration of code written
+- 02/02/2019, Code adjusted for design report, finalized code
+- 03/01/2019, Designs for mounting created through Solidworks
+- 03/09/2919, Project attached to vehicle, testing
+- 03/15/2019, Project earns "Best Innvation" Award at 2019 HPVC West
 
 ## Contributing Team Members
 - Mashroor Rashid (CpE, 2020), email: mrmk8@mst.edu
